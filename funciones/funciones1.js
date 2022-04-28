@@ -72,4 +72,7 @@ calcular(1,2)
 
 let a=10, b=12
 
+const porcentaje=(a,b)=>a%b==0||b%a==0?"Son algo":"No son algo"
+console.log(porcentaje(45,56))
+
 
