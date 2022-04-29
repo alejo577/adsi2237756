@@ -113,9 +113,11 @@ descuento(100000,15)
 function fecha(a) {
 var dia = new Date(a);
 var hoy = new Date();
-console.log(dia);
-console.log(hoy);
+
+var y = dia.toISOString().split("T")[0]
 var x = hoy.toISOString().split("T")[0]
+console.log("La fecha ingresada es "+y);
+console.log("La fecha actual es "+x);
 if(dia<x){
     console.log("la fecha que coloco es anterior")
 }else if(dia>x){
