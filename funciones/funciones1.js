@@ -76,7 +76,7 @@ const porcentaje=(a,b)=>a%b==0||b%a==0?"Son algo":"No son algo"
 console.log(porcentaje(45,56))
 
 
-//PRIMOS
+//NUMEROS PRIMOS
 
 function primo(a) {
 let x=0
@@ -95,7 +95,7 @@ for(i=1;i<=a;i++){
 
 primo(1)
 
-//descuento
+//VALOR CON DESCUENTO
 
 function descuento (valor,pordes){
     let = desc = 0
@@ -115,7 +115,6 @@ var dia = new Date(a);
 var hoy = new Date();
 console.log(dia);
 console.log(hoy);
-console.log()
 var x = hoy.toISOString().split("T")[0]
 if(dia<x){
     console.log("la fecha que coloco es anterior")
