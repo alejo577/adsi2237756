@@ -76,3 +76,40 @@ const porcentaje=(a,b)=>a%b==0||b%a==0?"Son algo":"No son algo"
 console.log(porcentaje(45,56))
 
 
+//PRIMOS
+
+function primo(a) {
+let x=0
+for(i=1;i<=a;i++){
+    if (a%i==0) {
+        x++
+}   }
+
+    if (x==2){
+        console.log(`El numero ${a} es primo`)
+    }else{
+        console.log(`El numero ${a} no es primo`)
+    }
+
+}
+
+primo(1)
+
+//descuento
+
+function descuento (valor,pordes){
+    let = desc = 0
+    desc= valor*pordes/100
+
+    valorfinal=valor-desc
+
+    console.log(`El valor final es de ${valorfinal}`)
+}
+
+descuento(100000,15)
+
+
+
+
+
+
