@@ -118,9 +118,9 @@ var y = dia.toISOString().split("T")[0]
 var x = hoy.toISOString().split("T")[0]
 console.log("La fecha ingresada es "+y);
 console.log("La fecha actual es "+x);
-if(dia<x){
+if(y<x){
     console.log("la fecha que coloco es anterior")
-}else if(dia>x){
+}else if(y>x){
     console.log("la fecha que coloco es posterior")
 }else{
     console.log("la fecha que coloco es actual")
