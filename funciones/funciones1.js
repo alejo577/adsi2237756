@@ -11,7 +11,35 @@ console.log("trabajo con funciones");
 //var s ="gusto saludar"
 //s=saludo("Maria ")+s
 //console.log(s)
+//PAR/IMPAR
+let num=parseInt(prompt("Indique un número:"));
 
+if((num % 2) == 0){
+  par();
+}else{
+  impar();
+}
+//FUNCIONES
+function par(){
+console.log(num+"es par");
+}
+function impar(){
+console.log(num+"es impar");
+}
+
+//SUMA
+let num1=parseInt(prompt("Indique un número:"));
+let num2=parseInt(prompt("Indique el segundo numero número:"));
+
+suma()
+
+//FUNCIONES
+function suma(){
+
+var suma= num1+num2
+
+console.log(suma);
+}
 
 //ejercicio de cual es mayor
 
